@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const taskForm = document.getElementById("create-task-form");
   taskForm.addEventListener("submit", newTask);
 });
+
 const newTask = event => {
   event.preventDefault();
   const taskList = document.getElementById("tasks")
